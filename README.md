@@ -2,22 +2,22 @@
  LAMP DOCKER SETUP WITH PHP 8 AND MARIADB FOR SYMFONY, LARAVEL AND YII2 PROJECTS
 
 Structure of Directories:
-
 .
 ├── src/
-├── docker/
-│   ├── db/
-│   │   └── mariadb/
-│   │       └── my.cnf
-│   └── server/
-│       ├── apache/
-│       │   └── sites-enabled/
-│       │       └── site.conf
-│       ├── php/
-│       │   └── php.ini
-│       └── Dockerfile
+└── docker/
+    ├── db/
+    │   └── mariadb/
+    │       └── my.cnf
+    └── server/
+        ├── apache/
+        │   └── sites-enabled/
+        │       └── site.conf
+        ├── php/
+        │   └── php.ini
+        └── Dockerfile
 ├── .env
 └── compose.yaml
+
 
 instead of apache we can use another server.
 
