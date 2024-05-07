@@ -2,6 +2,7 @@
  LAMP DOCKER SETUP WITH PHP 8 AND MARIADB FOR SYMFONY, LARAVEL AND YII2 PROJECTS
 
 Structure of Directories:
+```
 .
 ├── src/
 └── docker/
@@ -17,7 +18,7 @@ Structure of Directories:
         └── Dockerfile
 ├── .env
 └── compose.yaml
-
+```
 
 instead of apache we can use another server.
 
